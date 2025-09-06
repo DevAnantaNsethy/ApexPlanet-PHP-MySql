@@ -1,15 +1,78 @@
-/* styles.css */
+/* style.css */
 body {
+  font-family: Arial, sans-serif;
   background: #f4f7fb;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 .container {
-  max-width: 900px;
-}
-.card {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-.form-control {
-  min-width: 220px;
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.post {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.post h3 {
+  margin: 0;
+  color: #333;
+}
+
+.post small {
+  color: #666;
 }
